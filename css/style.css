@@ -72,3 +72,7 @@ min-height: calc(100vh - 100px);
     cursor: pointer;
     color: #38025c;
 }
+
+.img-bell{
+    width: 50vw;
+}
