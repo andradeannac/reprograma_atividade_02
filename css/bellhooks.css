@@ -10,7 +10,7 @@ min-height: calc(100vh - 100px);
 }
 
 .nav-bar{
-    background: #3d70ca;
+    background: #2b5091;
     margin: 0px;
     display: flex;
     flex-direction: row;
@@ -46,7 +46,7 @@ min-height: calc(100vh - 100px);
 }
 
 .footer-bar {
-    background: #3d70ca;
+    background: #2b5091;
     margin: 0px;
     display: flex;
     flex-direction: row;
