@@ -7,6 +7,9 @@ body{
 
 .content {
 min-height: calc(100vh - 100px);
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .nav-bar{
@@ -73,6 +76,52 @@ min-height: calc(100vh - 100px);
     color: #38025c;
 }
 
-.img-bell{
-    width: 50vw;
+.pontos p{
+    color: #fff;
+    font-size: 2rem;
+    margin-top: -0.5rem;
+}
+
+.descricao p{
+    color:#fff;
+    font-size: 1.5rem;
+}
+
+.galery {
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+    margin: 0.5rem;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.623);
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img,
+.galery .fotos a img{
+    width: 19.9%;
+    height: 360px;
+}
+
+.galery .fotos img:hover,
+.galery .fotos a img:hover{
+    cursor: pointer;
+}
+
+@keyframes animacao {
+    0% {margin-left: 0;}
+    25% {margin-left: 0;}
+    30% {margin-left: -100%;}
+    50% {margin-left: -100%;}
+    55% {margin-left: -200%;}
+    75% {margin-left: -200%;}
+    80% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+    100%{margin-left: -400%}
+    
 }
